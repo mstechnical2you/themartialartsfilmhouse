@@ -1,37 +1,19 @@
-body, html {
-    height: 100%;
+html,body {
+    
     background-color: #e3f2fd;
-    font-family: 'Source Sans Pro', sans-serif; 
-  
-}
+    font-family: 'Playfair Display', serif; 
+  }
 
 /* The Martial Arts Film House Logo */
-.img {
- 
-    /* The image used */
-    background-image: url("images/Martial Arts Film House Logo No Name.jpg");
-    background-size: 100%;
-    
-    /* Set a specific height */
-    height: auto;
-    max-width: 100%;
 
-    /* Position and center the image to scale nicely on all screens */
-    
-    background-position: center;
+.header {
+    display: inline;
+    background-position: left;
     background-repeat: no-repeat;
-    background-attachment:fixed;
-    
-}
-.button{
-    alignment-baseline: middle;
 }
 
-/*.morphext > .animated {*/
-/*    display: inline-block;*/
-
-
-.h1{
+.h1 {
+  margin: 0;
   font-style: normal;
 }
 
